@@ -1,0 +1,46 @@
+body {
+  /* height: 100vh; */
+  background-color: black;
+  margin:10px
+}
+
+.navContainer {
+  margin:10px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title{
+  margin-left: 20px;
+  font-size: x-large;
+}
+
+.aboutMe{
+  margin-left:100px;
+}
+
+.photo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+}
+
+.photoCards{
+  text-align: center;
+  color:white;
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.cardThree {
+  max-height: 252px;
+}
+
+.footer{
+  color:white
+}
